@@ -1,1 +1,1 @@
-Por: Sophia Miranda dos Santos
+Por: Sophia Miranda dos Santos e Naielly Vitoria Santana Dias
