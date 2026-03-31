@@ -1,17 +1,38 @@
-# FONTE: https://docs.python.org/pt-br/3/library/random.html .
-
-imput= str (input("Digite a senha: "))
-tent= str
-senha= "euteamo"
-i= 0
-
+senha= "ficanaielly"
+i=1
 while i<=3:
-    if imput != senha:
-        tent= str("Tente novamente:")
-        i+=1
+    imput= str(input("Digite a senha:"))
+    if imput == senha:
+        print ("Acesso concebido")
         break
-    elif imput == senha or tent == senha:
-        print("Acesso liberado")
     else:
-        print("Conta bloqueada!!!!!!!!")
+        i+=1
+        print ("Incorreto")
+if i>3:            
+   print ("Conta bloqueada")
+    
+    
+#tenho que simplificar esse codigo, linha d++++
+    
+    
+# senha= "ficanaielly"
+# i=1
+# imput= str(input("Digite a senha:"))
+# if imput == senha:
+#  print ("Acesso concebido")
+# else:
+#       while i<=3:
+#           tent= str (input("Tente novamente:"))
+#           if tent == senha:
+#               print ("Acesso concebido")
+#               break
+#           else:
+#             i+=1    
+# if i>3:
+#     print ("Conta bloqueada")
+ 
+
+
+
+
         

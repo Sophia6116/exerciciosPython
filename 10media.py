@@ -10,5 +10,4 @@ elif media>=5 and media<8:
     conc= "B"
 else:
     conc= "A"
-    
 print(f"Média: {media:.2f}\nConceito: {conc}")
