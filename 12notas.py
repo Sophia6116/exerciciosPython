@@ -17,8 +17,8 @@ while True:
     soma= nota+soma
     i+=1
     
-    if i>0:
-        media = soma / i  
+if i>0:
+    media = soma / i  
 print(f"Média: {media:.2f}\nMaior nota: {maior}\nMenor nota: {menor}")
 
 # manos e manas, como mostra a maior e menor nota tirada? (Trabalho pra Sophia do futuro)
